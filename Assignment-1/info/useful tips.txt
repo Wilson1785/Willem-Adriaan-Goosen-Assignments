@@ -1,0 +1,30 @@
+How to ask for help
+
+ "How to be great at asking coding questions" 
+
+ "The XY Problem" 
+
+ Useful links
+
+“Why Learning to Code is So Damn Hard” 
+
+ "Things I Wish Someone Had Told Me When I Was Learning How To Code" 
+
+ "Deliberate Programming Practice" 
+
+
+HTML
+
+The basics differences HTMLvsCSSvsJS
+
+HTML & CSS for beginners
+
+BASIC HTML & CSS for NON-WEB DESIGNERS
+
+Generate random text
+
+Links & Images
+
+listed html tags
+
+Semantic elements

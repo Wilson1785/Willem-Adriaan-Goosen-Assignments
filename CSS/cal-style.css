@@ -1,0 +1,53 @@
+/*setting a grid for the calculator*/
+.my-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+/*styling the buttons for the calculator*/
+.my-grid > button {
+    cursor: crosshair;
+    font-size: 2rem;
+    border: 1px solid gray;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+}
+
+/*setting the hover over of the buttons*/
+.my-grid > button:hover{
+    background-color: rgba(255, 255, 255, .9);
+}
+
+/*the style to have the equals & AC buttons to span two spaces on the grid*/
+.span-two {
+    grid-column: span 2;
+}
+
+/*the style for the display of the calculator*/
+.display{
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, .75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+/*the style for the top display*/
+.previous-input{
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+}
+
+/*the style for the main display*/
+.current-input{
+    color: white;
+    font-size: 2.5rem;
+}
